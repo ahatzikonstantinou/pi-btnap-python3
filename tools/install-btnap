@@ -5,7 +5,7 @@
 # Author: Bernhard Bablok
 # License: GPL3
 #
-# Website: https://github.com/bablokb/pi-btnap
+# Website: https://github.com/ahatzikonstantinou/pi-btnap-python3
 #
 # --------------------------------------------------------------------------
 
@@ -26,7 +26,7 @@ BT_CONF_HIDDEN="0"        # system is permanently discoverable/pairable
 
 # --- basic packages   ------------------------------------------------------
 
-PACKAGES="bridge-utils python-dbus python-gobject"
+PACKAGES="bridge-utils python3-dbus python3-gi"
 [ "$BT_CONF_DNSMASQ" = "1" ] && PACKAGES+=" dnsmasq"
 if [ -n "$PACKAGES" ]; then
   apt-get update
