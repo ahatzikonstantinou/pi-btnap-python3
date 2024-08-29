@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 # --------------------------------------------------------------------------
 # This scripts implements the btnap-service.
 #
