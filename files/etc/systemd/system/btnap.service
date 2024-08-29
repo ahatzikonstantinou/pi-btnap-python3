@@ -18,7 +18,7 @@ After=bluetooth.service
 PartOf=bluetooth.service
 
 [Service]
-ExecStart=/usr/local/sbin/btnap.service.sh
+ExecStart=/usr/local/sbin/btnap.service.sh --noplugin=sap
 
 [Install]
 WantedBy=bluetooth.target
