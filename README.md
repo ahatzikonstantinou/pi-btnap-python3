@@ -1,5 +1,13 @@
-Bluetooth Network Access Point for Raspberry Pi
+Bluetooth Network Access Point for Raspberry Pi (Python3 update)
 ===============================================
+
+Note
+----
+
+The original https://github.com/bablokb/pi-btnap was using python2 libraries.
+This is an updated version that uses python3. Mainly changed calls to dict.iteritems()
+and dict().viewitems() to dict.items()
+Also changed #!/usr/bin python2 to #!/usr/bin python
 
 Introduction
 ------------
